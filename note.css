@@ -1,0 +1,55 @@
+body{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(208, 123, 25);
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#counter {
+    font-size: 40px;
+    text-align: center;
+}
+
+#noteList{
+    text-align: left;
+    margin: 20px 0 0 50px;
+    line-height: 29px;
+}
+
+button{
+    padding: 5px;
+    background-color: rgb(201, 52, 14);
+    border-radius: 10px;
+    color:white;
+    border: none;
+    box-shadow: 0 2px 0 black;
+    cursor: pointer;
+}
+
+#help{
+    background-color: rgb(61, 89, 228);
+    border-radius: 50%;
+    color: white;
+}
